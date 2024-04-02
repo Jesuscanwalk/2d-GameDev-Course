@@ -1,6 +1,6 @@
 [gd_scene load_steps=5 format=3 uid="uid://waokhdf348iq"]
 
-[ext_resource type="PackedScene" path="res://practices/L2.P1.pop_the_ball/ball.tscn" id="1_nyxov"]
+[ext_resource type="PackedScene" uid="uid://c54s146qcvnja" path="res://practices/L2.P1.pop_the_ball/ball.tscn" id="1_nyxov"]
 [ext_resource type="PackedScene" path="res://practices/L2.P1.pop_the_ball/needle.tscn" id="3_w8ucv"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_j6767"]
@@ -15,14 +15,14 @@ position = Vector2(960, 540)
 [node name="Ball" parent="." instance=ExtResource("1_nyxov")]
 position = Vector2(-136, 38)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ball"]
 position = Vector2(0, 1)
 shape = SubResource("CircleShape2D_j6767")
 
 [node name="Ball2" parent="." instance=ExtResource("1_nyxov")]
 position = Vector2(69, 38)
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Ball2"]
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Ball2"]
 shape = SubResource("CircleShape2D_qyy0p")
 
 [node name="Ball3" parent="." instance=ExtResource("1_nyxov")]
