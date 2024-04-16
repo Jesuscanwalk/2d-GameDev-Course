@@ -31,5 +31,6 @@ script = SubResource("GDScript_655eb")
 autostart = true
 
 [node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(958, 540)
 
 [connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
