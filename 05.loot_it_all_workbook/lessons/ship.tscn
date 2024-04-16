@@ -66,6 +66,7 @@ scale = Vector2(0.75, 0.75)
 texture = ExtResource("5_vsfh3")
 
 [node name="GemCount" type="Label" parent="UI"]
+layout_mode = 0
 offset_left = 10.0
 offset_top = -98.0
 offset_right = 50.0
